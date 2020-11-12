@@ -8,5 +8,14 @@
 
     </style>
 
+    <style name="WhiteBox">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/green_box_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
     <color name="GreenBox">#4CAF50</color>
 </resources>
