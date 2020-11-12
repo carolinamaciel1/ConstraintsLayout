@@ -37,7 +37,7 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="@dimen/green_box_size"
-        android:textStyle="@string/box_two"
+        android:textStyle=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_one_id" />
 
@@ -54,7 +54,7 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="@dimen/green_box_size"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/box_five_id"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/box_two_id"
         app:layout_constraintTop_toBottomOf="@+id/box_three_id" />
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toTopOf="@+id/box_two_id" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/box_five_id"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
